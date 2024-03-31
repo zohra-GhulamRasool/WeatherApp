@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/weather-273-458700.png" alt="WeatherNow Logo">
+            <h1>WeatherNow</h1>
+        </div>
+    </header>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter the city name" spellcheck="false">
+            <button><img src="https://cdn.iconscout.com/icon/free/png-24/search-1-1175152.png" alt="Search"></button>
+        </div>
+
+        <div class="weather">
+            <img src="weather-icon.png" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="https://cdn.iconscout.com/icon/free/png-24/humidity-1-1175134.png" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://cdn.iconscout.com/icon/free/png-24/wind-1-1175124.png" alt="Wind Icon">
+                    <div>
+                        <p class="wind">50 km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
